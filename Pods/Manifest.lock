@@ -1,0 +1,16 @@
+PODS:
+  - iCimulator (1.5)
+
+DEPENDENCIES:
+  - iCimulator
+
+SPEC REPOS:
+  trunk:
+    - iCimulator
+
+SPEC CHECKSUMS:
+  iCimulator: 11419d08ace3c1745ee097f7e1596392dcee37a2
+
+PODFILE CHECKSUM: 12792f0f6003fd5e8204f847fcab37cfcd91e0c4
+
+COCOAPODS: 1.9.1

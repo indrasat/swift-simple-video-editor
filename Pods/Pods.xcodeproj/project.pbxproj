@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005F8EE6A0DC2A3557C743F2452ADDB7 /* FakeCapturePhotoSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F98602852917D57B4B80426E1212AC /* FakeCapturePhotoSettings.swift */; };
+		07C29F8542C67E0B594E20FB932EA075 /* _FakeCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317710E6FEB820255478D5B138159250 /* _FakeCaptureSession.swift */; };
+		09D39CC3828C36DBA414CDF7D9E35245 /* FakeImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760E936B81D1CA29FD644E2D98FC8DE6 /* FakeImagePickerController.xib */; };
+		0CFE70A8CFF42F54234808970894C38D /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C3284E9B0426594E5079E6E7DF6CF /* StopWatch.swift */; };
+		143B29B943903E6C2D473FE1899CE423 /* iCimulator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6FB19A304ADCA78254BA419B95C52 /* iCimulator-dummy.m */; };
+		2B74A3C3D1AC6DDD65A8B9B7429F50F1 /* _FakeImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD390A6E57906C5B52D89BEC5F5CE54 /* _FakeImagePickerController.swift */; };
+		374FC3A42CD7BCA432496C8C1ADED4AB /* FakeCaptureOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A40440E45826AD7333F8B1BF2DB9300 /* FakeCaptureOutput.swift */; };
+		45C8E8327365E30732513A42BB4BD9E2 /* VideoConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44E8B21F872AAC04DC3F3417D38BD7 /* VideoConverter.swift */; };
+		4893A8A54A79A29DD20C66C8D3113CE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5BFF67953FBB88EFB12495BCF9C508E4 /* FakeCaptureDeviceInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8120C9AA02591DF2EA2FB0CC50B373C9 /* FakeCaptureDeviceInput.swift */; };
+		5DD5EF40C78C87FA7F11054D974F5300 /* iCimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 83CC26D1264158AB63405C0BAF4C0C70 /* iCimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61AF59DFF9B240E969521BA3D1C48B27 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44808AB07E9F15D007DE63C01482B3D2 /* Misc.swift */; };
+		61BE72BBD878407B082AAB151BE29C82 /* iCimulatorFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D85E0EAA69BA3856B01AF087ACAF1D /* iCimulatorFoundation.swift */; };
+		62ABDDC3C6A7876A9100680CB01AFACA /* FakeCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B500031514C6ABAFFC62812FC73C64 /* FakeCaptureSession.swift */; };
+		6F78CB60B55B37CFD480ADEFA50387FF /* _FakeCaptureDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BDBD99C1385C7FC870289D59FB9852 /* _FakeCaptureDevice.swift */; };
+		721C0B81B839D061B838F15486C61B2B /* FakeCaptureDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1F64C153096FB687C7298FE31EF74 /* FakeCaptureDevice.swift */; };
+		7B7E0BCF9ABF19303F72E42E85F0A656 /* FakeImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97F76155E6CF192350C5B7226B2EA5 /* FakeImagePickerController.swift */; };
+		80ACCCE9A6E6A4ACA575DB4870FA3439 /* _FakeCaptureConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BC10AC996DE4B81C3C5DEEA645F46B /* _FakeCaptureConnection.swift */; };
+		843D3E21A46E7DDB412DFDDF0EB00272 /* _FakeCaptureSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436831EF64512295B3270125C79FA5CA /* _FakeCaptureSettings.swift */; };
+		96BE2583FB66C664BFA099DF6849FE1C /* Pods-VideoEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BDD4329A35F7F71CBC1E8D5174A241 /* Pods-VideoEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A00E8AEE297CE3F5FC1FC398D3833511 /* FakeCaptureStillImageOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EF7514F7BEC718D4C5C1C69AD84E12 /* FakeCaptureStillImageOutput.swift */; };
+		A27F41CFC440E9F1E195935B7846F14E /* InterProcessCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53546A05C93957CE8960200486CE0FF /* InterProcessCommunicator.swift */; };
+		AA99F90A56BB7B9A572ED8B57EDAF2C9 /* _FakeCaptureStillImageOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E758E49F78C7A1AF13192741FE421D6B /* _FakeCaptureStillImageOutput.swift */; };
+		C72592F1A6FD007EA8A8B6267EF8AE49 /* _FakeCapturePhotoOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DB14283759230EF129D330C3D45EEB /* _FakeCapturePhotoOutput.swift */; };
+		D820751BBC42226CF71ABB9238C6EC05 /* Pods-VideoEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B8D13A996E8D27B1C63DD99B897C4 /* Pods-VideoEditor-dummy.m */; };
+		E65129BEC9D871408FEE4187F1A51017 /* iCimulator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C36629948E6FDF12B4C7CF39694EAA0 /* iCimulator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0375B3B58B25AA749E85F0B305419FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F90F240A178334C8A67C33279DC937AF /* FakeCaptureConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A0E73151A83237BA26970CD96A4FF5 /* FakeCaptureConnection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0E794FE17A3208789C0766B417BE4CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836E5757552022C4F25E51B48E05C281;
+			remoteInfo = iCimulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BDBD99C1385C7FC870289D59FB9852 /* _FakeCaptureDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _FakeCaptureDevice.swift; path = iCimulator/Foundation/Disguise/_FakeCaptureDevice.swift; sourceTree = "<group>"; };
+		15C1F64C153096FB687C7298FE31EF74 /* FakeCaptureDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FakeCaptureDevice.swift; path = iCimulator/Foundation/FakeCaptureDevice.swift; sourceTree = "<group>"; };
+		1DCFF61217A45D6B703644521246333D /* iCimulator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCimulator-prefix.pch"; sourceTree = "<group>"; };
+		245D9AD0BCA1B1C0DFAD27A59C0D0B24 /* iCimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCimulator.debug.xcconfig; sourceTree = "<group>"; };
+		26D85E0EAA69BA3856B01AF087ACAF1D /* iCimulatorFoundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iCimulatorFoundation.swift; path = iCimulator/iCimulatorFoundation.swift; sourceTree = "<group>"; };
+		317710E6FEB820255478D5B138159250 /* _FakeCaptureSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _FakeCaptureSession.swift; path = iCimulator/Foundation/Disguise/_FakeCaptureSession.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F1F14E76ACCBDA695CE4281584DA07C /* iCimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCimulator.release.xcconfig; sourceTree = "<group>"; };
+		41DC45846B0392294E7D3DDEC4D4EF42 /* iCimulator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iCimulator-Info.plist"; sourceTree = "<group>"; };
+		436831EF64512295B3270125C79FA5CA /* _FakeCaptureSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _FakeCaptureSettings.swift; path = iCimulator/Foundation/Disguise/_FakeCaptureSettings.swift; sourceTree = "<group>"; };
+		44808AB07E9F15D007DE63C01482B3D2 /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = iCimulator/Utilities/Misc.swift; sourceTree = "<group>"; };
+		54DB14283759230EF129D330C3D45EEB /* _FakeCapturePhotoOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _FakeCapturePhotoOutput.swift; path = iCimulator/Foundation/Disguise/_FakeCapturePhotoOutput.swift; sourceTree = "<group>"; };
+		5C36629948E6FDF12B4C7CF39694EAA0 /* iCimulator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCimulator-umbrella.h"; sourceTree = "<group>"; };
+		63ACB0FE045A737AF08A0E1CD6A94294 /* Pods-VideoEditor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoEditor-acknowledgements.plist"; sourceTree = "<group>"; };
+		67C6FB19A304ADCA78254BA419B95C52 /* iCimulator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iCimulator-dummy.m"; sourceTree = "<group>"; };
+		72BDD4329A35F7F71CBC1E8D5174A241 /* Pods-VideoEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoEditor-umbrella.h"; sourceTree = "<group>"; };
+		75A0E73151A83237BA26970CD96A4FF5 /* FakeCaptureConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FakeCaptureConnection.swift; path = iCimulator/Foundation/FakeCaptureConnection.swift; sourceTree = "<group>"; };
+		760E936B81D1CA29FD644E2D98FC8DE6 /* FakeImagePickerController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FakeImagePickerController.xib; path = iCimulator/UIImagePickerController/FakeImagePickerController.xib; sourceTree = "<group>"; };
+		7A40440E45826AD7333F8B1BF2DB9300 /* FakeCaptureOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FakeCaptureOutput.swift; path = iCimulator/Foundation/FakeCaptureOutput.swift; sourceTree = "<group>"; };
+		8120C9AA02591DF2EA2FB0CC50B373C9 /* FakeCaptureDeviceInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FakeCaptureDeviceInput.swift; path = iCimulator/Foundation/FakeCaptureDeviceInput.swift; sourceTree = "<group>"; };
+		8283C1A2660B8AA2A2156A4222F73D5E /* Pods-VideoEditor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoEditor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83CC26D1264158AB63405C0BAF4C0C70 /* iCimulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCimulator.h; path = iCimulator/iCimulator.h; sourceTree = "<group>"; };
+		8434BAC5D515A8FD274D53C4CD6EAD53 /* Pods-VideoEditor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoEditor-frameworks.sh"; sourceTree = "<group>"; };
+		85E1499B014EFCB951D21B3666CE5D44 /* Pods-VideoEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoEditor-Info.plist"; sourceTree = "<group>"; };
+		93EF7514F7BEC718D4C5C1C69AD84E12 /* FakeCaptureStillImageOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FakeCaptureStillImageOutput.swift; path = iCimulator/Foundation/Deprecated/FakeCaptureStillImageOutput.swift; sourceTree = "<group>"; };
+		940C3284E9B0426594E5079E6E7DF6CF /* StopWatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StopWatch.swift; path = iCimulator/Utilities/StopWatch.swift; sourceTree = "<group>"; };
+		951343BB4D9FA482A0CFC553CCFAAC04 /* iCimulator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iCimulator.modulemap; sourceTree = "<group>"; };
+		9A5B8D13A996E8D27B1C63DD99B897C4 /* Pods-VideoEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoEditor-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0FD214CD3FAF746E5CA2093D5F6A35B /* Pods-VideoEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoEditor.release.xcconfig"; sourceTree = "<group>"; };
+		AA8697AAB8B3442FA75DEE154894ECBE /* Pods-VideoEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoEditor.debug.xcconfig"; sourceTree = "<group>"; };
+		ABD390A6E57906C5B52D89BEC5F5CE54 /* _FakeImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _FakeImagePickerController.swift; path = iCimulator/UIImagePickerController/Disguise/_FakeImagePickerController.swift; sourceTree = "<group>"; };
+		C4F98602852917D57B4B80426E1212AC /* FakeCapturePhotoSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FakeCapturePhotoSettings.swift; path = iCimulator/Foundation/FakeCapturePhotoSettings.swift; sourceTree = "<group>"; };
+		CB97F76155E6CF192350C5B7226B2EA5 /* FakeImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FakeImagePickerController.swift; path = iCimulator/UIImagePickerController/FakeImagePickerController.swift; sourceTree = "<group>"; };
+		D8BC10AC996DE4B81C3C5DEEA645F46B /* _FakeCaptureConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _FakeCaptureConnection.swift; path = iCimulator/Foundation/Disguise/_FakeCaptureConnection.swift; sourceTree = "<group>"; };
+		DC44E8B21F872AAC04DC3F3417D38BD7 /* VideoConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoConverter.swift; path = iCimulator/Utilities/VideoConverter.swift; sourceTree = "<group>"; };
+		DE10F3D1FB0C7D7E0B07F2F2C1367AA2 /* Pods_VideoEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VideoEditor.framework; path = "Pods-VideoEditor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B500031514C6ABAFFC62812FC73C64 /* FakeCaptureSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FakeCaptureSession.swift; path = iCimulator/Foundation/FakeCaptureSession.swift; sourceTree = "<group>"; };
+		E5B8AC129B0C560CD1271D9BBA8500E2 /* Pods-VideoEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VideoEditor.modulemap"; sourceTree = "<group>"; };
+		E758E49F78C7A1AF13192741FE421D6B /* _FakeCaptureStillImageOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _FakeCaptureStillImageOutput.swift; path = iCimulator/Foundation/Deprecated/Disguise/_FakeCaptureStillImageOutput.swift; sourceTree = "<group>"; };
+		E7849F26E498C75817D43E13E1361E0A /* iCimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iCimulator.framework; path = iCimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53546A05C93957CE8960200486CE0FF /* InterProcessCommunicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InterProcessCommunicator.swift; path = iCimulator/Utilities/InterProcessCommunicator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19A667C443767002A4352A26892C9161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4893A8A54A79A29DD20C66C8D3113CE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34A22BADBB0FAB5D11BF2E7EC38164F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0375B3B58B25AA749E85F0B305419FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FFE7FBCD7ED82703618C7DEFAFB9787 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41B36CA20F5773C44750D1B11BC58A38 /* Pods-VideoEditor */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1AF6FA5191E6CF2AA01479D0382ED109 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A58C81C9A5E16ED17FE876A42FD8342B /* iCimulator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		29B56158AA831DD757080E3218A323BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				760E936B81D1CA29FD644E2D98FC8DE6 /* FakeImagePickerController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		41B36CA20F5773C44750D1B11BC58A38 /* Pods-VideoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				E5B8AC129B0C560CD1271D9BBA8500E2 /* Pods-VideoEditor.modulemap */,
+				8283C1A2660B8AA2A2156A4222F73D5E /* Pods-VideoEditor-acknowledgements.markdown */,
+				63ACB0FE045A737AF08A0E1CD6A94294 /* Pods-VideoEditor-acknowledgements.plist */,
+				9A5B8D13A996E8D27B1C63DD99B897C4 /* Pods-VideoEditor-dummy.m */,
+				8434BAC5D515A8FD274D53C4CD6EAD53 /* Pods-VideoEditor-frameworks.sh */,
+				85E1499B014EFCB951D21B3666CE5D44 /* Pods-VideoEditor-Info.plist */,
+				72BDD4329A35F7F71CBC1E8D5174A241 /* Pods-VideoEditor-umbrella.h */,
+				AA8697AAB8B3442FA75DEE154894ECBE /* Pods-VideoEditor.debug.xcconfig */,
+				A0FD214CD3FAF746E5CA2093D5F6A35B /* Pods-VideoEditor.release.xcconfig */,
+			);
+			name = "Pods-VideoEditor";
+			path = "Target Support Files/Pods-VideoEditor";
+			sourceTree = "<group>";
+		};
+		A58C81C9A5E16ED17FE876A42FD8342B /* iCimulator */ = {
+			isa = PBXGroup;
+			children = (
+				D8BC10AC996DE4B81C3C5DEEA645F46B /* _FakeCaptureConnection.swift */,
+				03BDBD99C1385C7FC870289D59FB9852 /* _FakeCaptureDevice.swift */,
+				54DB14283759230EF129D330C3D45EEB /* _FakeCapturePhotoOutput.swift */,
+				317710E6FEB820255478D5B138159250 /* _FakeCaptureSession.swift */,
+				436831EF64512295B3270125C79FA5CA /* _FakeCaptureSettings.swift */,
+				E758E49F78C7A1AF13192741FE421D6B /* _FakeCaptureStillImageOutput.swift */,
+				ABD390A6E57906C5B52D89BEC5F5CE54 /* _FakeImagePickerController.swift */,
+				75A0E73151A83237BA26970CD96A4FF5 /* FakeCaptureConnection.swift */,
+				15C1F64C153096FB687C7298FE31EF74 /* FakeCaptureDevice.swift */,
+				8120C9AA02591DF2EA2FB0CC50B373C9 /* FakeCaptureDeviceInput.swift */,
+				7A40440E45826AD7333F8B1BF2DB9300 /* FakeCaptureOutput.swift */,
+				C4F98602852917D57B4B80426E1212AC /* FakeCapturePhotoSettings.swift */,
+				E3B500031514C6ABAFFC62812FC73C64 /* FakeCaptureSession.swift */,
+				93EF7514F7BEC718D4C5C1C69AD84E12 /* FakeCaptureStillImageOutput.swift */,
+				CB97F76155E6CF192350C5B7226B2EA5 /* FakeImagePickerController.swift */,
+				83CC26D1264158AB63405C0BAF4C0C70 /* iCimulator.h */,
+				26D85E0EAA69BA3856B01AF087ACAF1D /* iCimulatorFoundation.swift */,
+				F53546A05C93957CE8960200486CE0FF /* InterProcessCommunicator.swift */,
+				44808AB07E9F15D007DE63C01482B3D2 /* Misc.swift */,
+				940C3284E9B0426594E5079E6E7DF6CF /* StopWatch.swift */,
+				DC44E8B21F872AAC04DC3F3417D38BD7 /* VideoConverter.swift */,
+				29B56158AA831DD757080E3218A323BA /* Resources */,
+				D156C15C47F9E6F23176B2FA7E7D1D73 /* Support Files */,
+			);
+			name = iCimulator;
+			path = iCimulator;
+			sourceTree = "<group>";
+		};
+		B634E705B210BBE36E30DC8D2E66263A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7849F26E498C75817D43E13E1361E0A /* iCimulator.framework */,
+				DE10F3D1FB0C7D7E0B07F2F2C1367AA2 /* Pods_VideoEditor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1AF6FA5191E6CF2AA01479D0382ED109 /* Pods */,
+				B634E705B210BBE36E30DC8D2E66263A /* Products */,
+				0FFE7FBCD7ED82703618C7DEFAFB9787 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D156C15C47F9E6F23176B2FA7E7D1D73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				951343BB4D9FA482A0CFC553CCFAAC04 /* iCimulator.modulemap */,
+				67C6FB19A304ADCA78254BA419B95C52 /* iCimulator-dummy.m */,
+				41DC45846B0392294E7D3DDEC4D4EF42 /* iCimulator-Info.plist */,
+				1DCFF61217A45D6B703644521246333D /* iCimulator-prefix.pch */,
+				5C36629948E6FDF12B4C7CF39694EAA0 /* iCimulator-umbrella.h */,
+				245D9AD0BCA1B1C0DFAD27A59C0D0B24 /* iCimulator.debug.xcconfig */,
+				3F1F14E76ACCBDA695CE4281584DA07C /* iCimulator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iCimulator";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		106E6C627FAB96707D1CB4E9BA17363F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BE2583FB66C664BFA099DF6849FE1C /* Pods-VideoEditor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEA139A78F8DEAD60A63A1E3B7C9677 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65129BEC9D871408FEE4187F1A51017 /* iCimulator-umbrella.h in Headers */,
+				5DD5EF40C78C87FA7F11054D974F5300 /* iCimulator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		751F4A141C810B7E28FFD199820B6561 /* Pods-VideoEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29D3F05C8CFC1776CA8C6D1BA8DBBBF /* Build configuration list for PBXNativeTarget "Pods-VideoEditor" */;
+			buildPhases = (
+				106E6C627FAB96707D1CB4E9BA17363F /* Headers */,
+				65AD8E41BB219CC14B3DF07AE596D7EE /* Sources */,
+				D34A22BADBB0FAB5D11BF2E7EC38164F /* Frameworks */,
+				998C018802A18BCB5DD097E8E23CA905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF9A78BB353761B6CE2B9018589D9CDF /* PBXTargetDependency */,
+			);
+			name = "Pods-VideoEditor";
+			productName = "Pods-VideoEditor";
+			productReference = DE10F3D1FB0C7D7E0B07F2F2C1367AA2 /* Pods_VideoEditor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		836E5757552022C4F25E51B48E05C281 /* iCimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD4E6D20C2E166D22B6E39FAAA01D09 /* Build configuration list for PBXNativeTarget "iCimulator" */;
+			buildPhases = (
+				BAEA139A78F8DEAD60A63A1E3B7C9677 /* Headers */,
+				672720446513E75DF3B038E8F4E66556 /* Sources */,
+				19A667C443767002A4352A26892C9161 /* Frameworks */,
+				2F174CE57DFD6309F1EA963C3E226243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCimulator;
+			productName = iCimulator;
+			productReference = E7849F26E498C75817D43E13E1361E0A /* iCimulator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B634E705B210BBE36E30DC8D2E66263A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				836E5757552022C4F25E51B48E05C281 /* iCimulator */,
+				751F4A141C810B7E28FFD199820B6561 /* Pods-VideoEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F174CE57DFD6309F1EA963C3E226243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D39CC3828C36DBA414CDF7D9E35245 /* FakeImagePickerController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998C018802A18BCB5DD097E8E23CA905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65AD8E41BB219CC14B3DF07AE596D7EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D820751BBC42226CF71ABB9238C6EC05 /* Pods-VideoEditor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672720446513E75DF3B038E8F4E66556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80ACCCE9A6E6A4ACA575DB4870FA3439 /* _FakeCaptureConnection.swift in Sources */,
+				6F78CB60B55B37CFD480ADEFA50387FF /* _FakeCaptureDevice.swift in Sources */,
+				C72592F1A6FD007EA8A8B6267EF8AE49 /* _FakeCapturePhotoOutput.swift in Sources */,
+				07C29F8542C67E0B594E20FB932EA075 /* _FakeCaptureSession.swift in Sources */,
+				843D3E21A46E7DDB412DFDDF0EB00272 /* _FakeCaptureSettings.swift in Sources */,
+				AA99F90A56BB7B9A572ED8B57EDAF2C9 /* _FakeCaptureStillImageOutput.swift in Sources */,
+				2B74A3C3D1AC6DDD65A8B9B7429F50F1 /* _FakeImagePickerController.swift in Sources */,
+				F90F240A178334C8A67C33279DC937AF /* FakeCaptureConnection.swift in Sources */,
+				721C0B81B839D061B838F15486C61B2B /* FakeCaptureDevice.swift in Sources */,
+				5BFF67953FBB88EFB12495BCF9C508E4 /* FakeCaptureDeviceInput.swift in Sources */,
+				374FC3A42CD7BCA432496C8C1ADED4AB /* FakeCaptureOutput.swift in Sources */,
+				005F8EE6A0DC2A3557C743F2452ADDB7 /* FakeCapturePhotoSettings.swift in Sources */,
+				62ABDDC3C6A7876A9100680CB01AFACA /* FakeCaptureSession.swift in Sources */,
+				A00E8AEE297CE3F5FC1FC398D3833511 /* FakeCaptureStillImageOutput.swift in Sources */,
+				7B7E0BCF9ABF19303F72E42E85F0A656 /* FakeImagePickerController.swift in Sources */,
+				143B29B943903E6C2D473FE1899CE423 /* iCimulator-dummy.m in Sources */,
+				61BE72BBD878407B082AAB151BE29C82 /* iCimulatorFoundation.swift in Sources */,
+				A27F41CFC440E9F1E195935B7846F14E /* InterProcessCommunicator.swift in Sources */,
+				61AF59DFF9B240E969521BA3D1C48B27 /* Misc.swift in Sources */,
+				0CFE70A8CFF42F54234808970894C38D /* StopWatch.swift in Sources */,
+				45C8E8327365E30732513A42BB4BD9E2 /* VideoConverter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF9A78BB353761B6CE2B9018589D9CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iCimulator;
+			target = 836E5757552022C4F25E51B48E05C281 /* iCimulator */;
+			targetProxy = D0E794FE17A3208789C0766B417BE4CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26101D5E04C6B0D9C7D80725E6B6C221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F1F14E76ACCBDA695CE4281584DA07C /* iCimulator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iCimulator/iCimulator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iCimulator/iCimulator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iCimulator/iCimulator.modulemap";
+				PRODUCT_MODULE_NAME = iCimulator;
+				PRODUCT_NAME = iCimulator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55E68056CF9009555187B485BA2DD38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8697AAB8B3442FA75DEE154894ECBE /* Pods-VideoEditor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoEditor/Pods-VideoEditor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoEditor/Pods-VideoEditor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AA5A5DFCD9B7ABB1A4C2D9ED79F1CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 245D9AD0BCA1B1C0DFAD27A59C0D0B24 /* iCimulator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iCimulator/iCimulator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iCimulator/iCimulator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iCimulator/iCimulator.modulemap";
+				PRODUCT_MODULE_NAME = iCimulator;
+				PRODUCT_NAME = iCimulator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E8316E6E5D6B12E4EFCD95F13AA42E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0FD214CD3FAF746E5CA2093D5F6A35B /* Pods-VideoEditor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoEditor/Pods-VideoEditor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoEditor/Pods-VideoEditor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BD4E6D20C2E166D22B6E39FAAA01D09 /* Build configuration list for PBXNativeTarget "iCimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA5A5DFCD9B7ABB1A4C2D9ED79F1CB1 /* Debug */,
+				26101D5E04C6B0D9C7D80725E6B6C221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29D3F05C8CFC1776CA8C6D1BA8DBBBF /* Build configuration list for PBXNativeTarget "Pods-VideoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E68056CF9009555187B485BA2DD38C /* Debug */,
+				E8316E6E5D6B12E4EFCD95F13AA42E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
